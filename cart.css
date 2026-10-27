@@ -1,0 +1,40 @@
+@media (max-width: 768px){
+#productos-container{
+display:flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 20px; ;
+max-width: 800px;
+margin: auto;
+
+}
+.tarjeta-producto{
+max-width: 300px;
+text-align: center ;
+background-color: aquamarine;
+padding: 10px;
+}
+.tarjeta-producto img{
+    width: 100%;
+    aspect-ratio: 1.5;
+    box-shadow: 0 4px 10px rgba(232, 168, 4, 0.3);
+    transition: 200ms;
+
+} 
+.tarjeta-producto:hover{
+    translate: 0 -10px;
+    box-shadow: 0 10px 5px rgba(232, 168, 4, 0.3);   
+}
+
+button{
+    background-color:var(--color-acento);
+    color: coral;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+}
+#totales{
+    text-align: center;
+}
+}
